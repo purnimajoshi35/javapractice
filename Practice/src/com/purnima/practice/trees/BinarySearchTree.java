@@ -14,10 +14,7 @@ public class BinarySearchTree {
 		root = insertIntoTree(root, num, 1);
 	}
 	
-	public void delete(int num)
-	{
-		
-	}
+	
 	
 	TreeNode insertIntoTree(TreeNode root2, int value, int position)
 	{
@@ -25,7 +22,7 @@ public class BinarySearchTree {
 		{
 			TreeNode node = new TreeNode(value, position);
 					root = node;
-					//System.out.println(position);
+					System.out.println(position);
 					return root;
 		}
 		
@@ -43,7 +40,37 @@ public class BinarySearchTree {
 			return root2;
 		}
 		
+		
+		
 	}
+	
+	public void delete(int num)
+	{
+	     																
+	}
+		
+	
+	/**public TreeNode deleteKey(TreeNode root2, int value)
+	{
+		if(root==null)
+		{
+			return root;
+		}
+		else if(root.key<value)
+		{
+			root2.left = deleteKey(root2.left, value)
+					
+		}
+		else if(root.key>value)
+		{
+			root2.right = deleteKey(root2.right, value)
+		}
+		else
+		{
+			sysout
+		}
+	
+	}**/
 	
 	
 }

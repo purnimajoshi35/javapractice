@@ -16,6 +16,7 @@ public class MainApp {
 			
 			int loop = Integer.parseInt(br.readLine().trim());
 			
+			
 			String []str = new String[loop];
 			
 			for(int i=0; i<loop; i++) {
@@ -38,9 +39,9 @@ public class MainApp {
 				while(stk.hasMoreTokens())
 				{
 					String opr = stk.nextToken();
-					System.out.println("opr is "+opr);
+					//System.out.println("opr is "+opr);
 					Integer num = Integer.parseInt(stk.nextToken());
-					System.out.println("num is "+num);
+					//System.out.println("num is "+num);
 					
 					if(opr.equals("i"))
 					{
