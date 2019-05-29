@@ -24,6 +24,9 @@ public class SerializationDemo {
        
        fos.close();
        oos.close();
+       fis.close();
+       ois.close();
+       
 	}
 
 }
