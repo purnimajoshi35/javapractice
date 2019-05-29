@@ -21,7 +21,9 @@ public class SerializationDemo {
        ObjectInputStream ois = new ObjectInputStream(fis);
        Dog d1 = (Dog) ois.readObject();
        System.out.println(d1.i);
-
+       
+       fos.close();
+       oos.close();
 	}
 
 }
