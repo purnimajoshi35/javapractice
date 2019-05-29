@@ -82,7 +82,7 @@ public class MergeSort {
     // merge() 
     void sort(int arr[], int l, int r) 
     { 
-    	System.out.println(arr.length+" "+l+" "+r);
+    	
         if (l < r) 
         { 
             // Find the middle point 
@@ -95,6 +95,7 @@ public class MergeSort {
             
             //System.out.println(r);
             // Merge the sorted halves 
+            System.out.println("+++ "+l+" "+m+" "+r);
             merge(arr, l, m, r); 
         } 
     } 
